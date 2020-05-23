@@ -5,21 +5,27 @@ body {
   color: #00909e;
   line-height: 2;
 }
-hr {
+.boundary{
   border: dotted #1f4068 5px;
   border-bottom: none;
   width: 5%;
-  margin: 100px auto auto auto;
+  margin: 100px auto 10px auto;
+}
+h2 {
+  text-align: center;
 }
 .header {
   background-color: #142850;
+  color: white;
   padding: 100px
 }
 .main-content {
   background-color: #dae1e7;
   padding: 200px;
+  text-align: center;
 }
 .video {
+  width: 60%;
   border: auto;
   border-radius: 20px;
   margin: 50px 50px;
@@ -27,10 +33,16 @@ hr {
 .footer {
   background-color: #142850;
   padding: 100px;
+  margin: auto;
+  text-align: center;
 }
-.media {
+.media-links {
   color: #00909e;
   padding: 5px 50px;
+  text-decoration: none;
+  text-align: center;
+}
+:hover .media-links {
   text-decoration: none;
 }
 #profile-pic {
