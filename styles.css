@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #00909e;
+  line-height: 2;
+}
+.boundary{
+  border: dotted #1f4068 5px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto 10px auto;
+}
+h2 {
+  text-align: center;
+}
+.header {
+  background-color: #142850;
+  color: white;
+  padding: 100px
+}
+.main-content {
+  background-color: #dae1e7;
+  padding: 200px;
+  text-align: center;
+}
+.video {
+  width: 60%;
+  border: auto;
+  border-radius: 20px;
+  margin: 50px 50px;
+}
+.footer {
+  background-color: #142850;
+  padding: 100px;
+  margin: auto;
+  text-align: center;
+}
+.media-links {
+  color: #00909e;
+  padding: 5px 50px;
+  text-decoration: none;
+  text-align: center;
+}
+:hover .media-links {
+  text-decoration: none;
+}
+#profile-pic {
+  text-align: left;
+  margin-right: 30px;
+  float: left;
+}
+#sub-count {
+  text-align: left;
+  margin-top: 100px
+}
+#desc {
+  text-align: left;
+  width: 800px;
+  clear: right;
+  margin: 50px;
+}
+#copyright {
+  font-size: 10px;
+  margin: 50px;
+}
